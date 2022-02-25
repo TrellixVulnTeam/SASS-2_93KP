@@ -1,20 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../js/bootstrap.min.js" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../estilos/estilos-sass.css" />
+  </head>
+  <body>
+
     <h2>Contacto</h2>
-    <nav>
-        <a href="../index.html">Inicio</a>
-        <a href="./hombre.html">Hombre</a>
-        <a href="mujer.html">Mujer</a>
-        <a href="./oulet.html">Outlet</a>
-        <a href="./temporada.html">Temporada2022</a>
-        <a href="./contacto.html">Contacto</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">LumaJeans</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./hombre.html"
+                >Hombre</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./mujer.html">Mujer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./temporada.html">Temporada2022</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./oulet.html">Outlet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-</body>
+
+<img src="../assets/contacto.png" alt="contacto" width="100%" height="450px">
+
+<p>El momento para contactarnos es ahora, no esperes mas y dejanos tu consulta y te respondemos lo antes posible.</p>
+
+<form>
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre</label>
+      <div class="col-sm-10">
+        <input type="nombre" class="form-control" id="inputEmail3" placeholder="Nombre">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Contacto</label>
+      <div class="col-sm-10">
+        <input type="contacto" class="form-control" id="inputPassword3" placeholder="Contacto">
+      </div>
+    </div>
+    <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Dejanos tu consulta</label>
+        <div class="col-sm-10">
+          <input type="consulta" class="form-control" id="inputPassword3" placeholder="Dejanos tu consulta">
+        </div>
+      </div>
+    <div class="form-group row">
+      <div class="col-sm-2">Checkbox</div>
+      <div class="col-sm-10">
+        <div class="form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox"> Check me out
+      </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </form>
+
+  </body>
 </html>

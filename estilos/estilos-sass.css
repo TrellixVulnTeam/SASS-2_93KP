@@ -11,3 +11,7 @@ p {
   font-size: x-large;
   font-family: cursive;
   margin-top: 5%; }
+
+h2 {
+  text-align: center;
+  background-color: #ceb8c3; }

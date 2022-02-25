@@ -1,20 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../js/bootstrap.js" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hombre</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../estilos/estilos-sass.css" />
+  </head>
+  <body>
     <h2>Hombre</h2>
-    <nav>
-        <a href="../index.html">Inicio</a>
-        <a href="./hombre.html">Hombre</a>
-        <a href="./mujer.html">Mujer</a>
-        <a href="./oulet.html">Outlet</a>
-        <a href="./temporada.html">Temporada2022</a>
-        <a href="./contacto.html">Contacto</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">LumaJeans</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./hombre.html"
+                >Hombre</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./mujer.html">Mujer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./temporada.html">Temporada2022</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./oulet.html">Outlet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-</body>
+
+    <div>
+      <p>
+        Stock variado, las mejores ofertas, la mejor atención en un mismo lugar.
+      </p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img
+            src="../assets/jeans hombre.jpg"
+            class="card-img-top"
+            alt="imagen jean"
+            height="200px"
+            width="150px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jeans</h5>
+            <p class="card-text">
+              En este lugar encontrarás los mejores Jeans para vos, para que
+              estes siempre a la moda y con lo mejor.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="../assets/remera hombre.jpg"
+            class="card-img-top"
+            alt="imagen remera"
+            height="200px"
+            width="150px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Remeras</h5>
+            <p class="card-text">
+              De todos los colores y talles, estilos, modelos, la remera que
+              buscas la tenemos nosotros.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="../assets/sweater hombre.jpg"
+            class="card-img-top"
+            alt="sweater hombre"
+            height="200px"
+            width="150px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Sweater</h5>
+            <p class="card-text">
+              Buscas el sweater mas canchero o preferís uno mas formal? De todas
+              maneras está aquí.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="../assets/campera hombre.jpg"
+            class="card-img-top"
+            alt="campera hombre"
+            height="200px"
+            width="150px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Camperas</h5>
+            <p class="card-text">
+              No queres pasar frio? Buscas algo de cuero, algodón? No sigas
+              buscando, encontralo en Luma Jeans.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,20 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../js/bootstrap.min.js" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mujer</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../estilos/estilos-sass.css" />
+  </head>
+  <body>
     <h2>Mujer</h2>
-    <nav>
-        <a href="../index.html">Inicio</a>
-        <a href="./hombre.html">Hombre</a>
-        <a href="./mujer.html">Mujer</a>
-        <a href="./oulet.html">Outlet</a>
-        <a href="./temporada.html">Temporada2022</a>
-        <a href="./contacto.html">Contacto</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">LumaJeans</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./hombre.html"
+                >Hombre</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./mujer.html">Mujer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./temporada.html">Temporada2022</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./oulet.html">Outlet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-</body>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="../assets/remera mujer.jpg"
+            class="card-img-top"
+            alt="remera mujer"
+            height="200px"
+            width="150px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Todas las opciones en remeras para ellas al mejor precio.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="../assets/jeans mujer.jpg"
+            class="card-img-top"
+            alt="jeans mujer"
+            height="200px"
+            width="150px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jeans</h5>
+            <p class="card-text">La mejor calidad, los mejores diseños.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img
+            src="../assets/campera de jean mujer.jpg"
+            class="card-img-top"
+            alt="campera jean mujer"
+            height="200px"
+            width="150px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Camperas</h5>
+            <p class="card-text">
+              Camperas de jean, puffer, sweater todo lo encontrás aquí.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

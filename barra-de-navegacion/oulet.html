@@ -1,20 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../js/bootstrap.min.js" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Outlet</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../estilos/estilos-sass.css" />
+  </head>
+  <body>
     <h2>Outlet</h2>
-    <nav>
-        <a href="../index.html">Inicio</a>
-        <a href="./hombre.html">Hombre</a>
-        <a href="./mujer.html">Mujer</a>
-        <a href="./oulet.html">Outlet</a>
-        <a href="./temporada.html">Temporada2022</a>
-        <a href="./contacto.html">Contacto</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">LumaJeans</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./hombre.html"
+                >Hombre</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./mujer.html">Mujer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./temporada.html">Temporada2022</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./oulet.html">Outlet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-</body>
+
+    <img
+      src="../assets/outlet2.jpg"
+      class="rounded float-start"
+      alt="outlet"
+      height="200 px"
+      width="400px"
+    />
+    <img
+      src="../assets/outlet1.webp"
+      class="rounded float-end"
+      alt="outlet"
+      height="200 px"
+      width="400px"
+    />
+    <div>
+      <p>
+        Los mejores precios están en un solo lugar. Tenemos descuentos del 30%,
+        50% y hasta el 70% en las mejores prendas para vos
+      </p>
+    </div>
+    <img src="../assets/outlet.jpeg" alt="outlet" height="250px" width="100%" />
+  </body>
 </html>
