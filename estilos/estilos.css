@@ -1,0 +1,64 @@
+h1 {
+  color: coral;
+  text-align: center;
+  font-style: italic;
+}
+h3 {
+  color: rgb(43, 43, 110);
+}
+li {
+  color: coral;
+}
+table {
+  color: cornflowerblue;
+}
+nav {
+  text-align: center;
+  font-style: italic;
+  word-spacing: 125px;
+}
+a {
+  text-align: right;
+}
+body {
+  background-color: rgb(206, 184, 195);
+}
+fieldset {
+  background-color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "a b e" "a b d" "c c c";
+  grid-gap: 10px;
+}
+.a {
+  background-color: whitesmoke;
+  grid-area: a;
+}
+.b {
+  background-color: whitesmoke;
+  grid-area: b;
+}
+.c {
+  background-color: whitesmoke;
+  grid-area: c;
+}
+.d {
+  background-color: whitesmoke;
+  grid-area: d;
+}
+.e {
+  background-color: whitesmoke;
+  grid-area: e;
+}
+.grid section {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.card {
+  width: min(700px, 90%, 70vw);
+  width: max(300px, 90%, 40vh);
+}

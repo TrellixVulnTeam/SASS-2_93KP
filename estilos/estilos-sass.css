@@ -1,0 +1,13 @@
+.header__logo {
+  background-color: #ceb8c3; }
+
+.header__logo {
+  max-width: 100%;
+  transition: all 1s;
+  text-align: center; }
+
+p {
+  text-align: center;
+  font-size: x-large;
+  font-family: cursive;
+  margin-top: 5%; }
